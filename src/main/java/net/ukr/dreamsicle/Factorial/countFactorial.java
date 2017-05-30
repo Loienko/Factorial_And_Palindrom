@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- * Created by Yura on 31.05.2017.
+ * Created by Yura on 30.05.2017.
  */
 public class countFactorial {
 

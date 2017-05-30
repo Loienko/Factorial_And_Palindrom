@@ -6,7 +6,7 @@ import static net.ukr.dreamsicle.Factorial.countFactorial.getFactorial;
 import static net.ukr.dreamsicle.Factorial.countSum.getCountSum;
 
 /**
- * Created by Yura on 31.05.2017.
+ * Created by Yura on 30.05.2017.
  */
 public class FactorialRunner {
     public static void main(String[] args) {
