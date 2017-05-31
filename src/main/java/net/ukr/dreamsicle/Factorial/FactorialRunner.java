@@ -7,6 +7,7 @@ import static net.ukr.dreamsicle.Factorial.countSum.getCountSum;
 
 /**
  * Created by Yura on 30.05.2017.
+ * Factorial calculation
  */
 public class FactorialRunner {
     public static void main(String[] args) {
@@ -14,6 +15,7 @@ public class FactorialRunner {
 
         try {
             while (true){
+                //Choice of the action to be performed
                 System.out.println("Please, click the number, what do you want to do???");
                 System.out.println("1: If do you want to count the factorial:");
                 System.out.println("2: If do you want to count the sum of the numbers:");
@@ -21,6 +23,7 @@ public class FactorialRunner {
                 System.out.println("Please make your choice!!! ");
                 System.out.println("-> \n");
 
+                // Checking for correct input of data
                 if (scanner.hasNextInt()){
                     int s =scanner.nextInt();
 

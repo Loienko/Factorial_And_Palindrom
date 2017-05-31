@@ -11,11 +11,9 @@ public class countFactorial {
     public static void getFactorial(Scanner scanner) {
 
         System.out.println("Input tne number ->");
-
+        // Checking for correct input of data
         if(scanner.hasNextInt()){
             BigInteger a = scanner.nextBigInteger();
-
-            //factorial(a);
 
             System.out.println("Factorial number " + a + " = " + factorial(a) + "\n");
         } else {
@@ -23,7 +21,7 @@ public class countFactorial {
         }
     }
 
-
+    // Factorial calculations by the recursive method
     public static BigInteger factorial(BigInteger n){
         BigInteger result = BigInteger.ONE;
         for (BigInteger i = BigInteger.ONE; i.compareTo(n) <= 0; i = i.add(BigInteger.ONE)) {
